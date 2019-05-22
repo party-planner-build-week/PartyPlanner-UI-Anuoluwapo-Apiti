@@ -4,7 +4,7 @@ const siteContent = {
     "nav-item-2": "About",
     "nav-item-3": "How It Works",
     "nav-item-4": "Features",
-    "nav-item-6": "Contact",
+    "nav-item-6": " Call (+234) 703-009-950-0",
   },
   secHeader: {
     "img-src": "img/celebration2.jpg"

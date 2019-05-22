@@ -279,7 +279,11 @@ footer {
   color: #9EC5AB;
   font-size: 2rem;
   font-weight: 400;
+  font-family: 'Open Sans';
 }
 .navigation nav a:hover {
   color: #F6F7F8;
+}
+.navigation nav a:last-of-type {
+  color: #EDE5A6;
 }
