@@ -57,11 +57,26 @@
             width: 33%;
             text-align: center;
             line-height: 5rem;
-            margin: 0 1.5rem;
+            margin: 0 1.5rem 2rem 1.5rem;
 
             i {
-                padding:2rem;
-                color:@icon-color;
+                padding:1rem;
+                color:@secondary-h2;
+                &:hover {
+                    color: @hover-color;
+                } 
+            }
+
+            h3 {
+                padding: 0 0 1.5rem 0;
+                &:hover {
+                    color: lighten(@nav-font, 50%);
+                } 
+            }
+            p{
+                color: @hover-color;
+                font-size: 1.8rem;
+                font-family: 'Open Sans'
             }
         }
     }

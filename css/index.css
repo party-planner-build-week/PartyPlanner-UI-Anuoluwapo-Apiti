@@ -274,11 +274,25 @@ footer {
   width: 33%;
   text-align: center;
   line-height: 5rem;
-  margin: 0 1.5rem;
+  margin: 0 1.5rem 2rem 1.5rem;
 }
 .features .features-top div i {
-  padding: 2rem;
-  color: #F1F1F1;
+  padding: 1rem;
+  color: #EDE5A6;
+}
+.features .features-top div i:hover {
+  color: #F6F7F8;
+}
+.features .features-top div h3 {
+  padding: 0 0 1.5rem 0;
+}
+.features .features-top div h3:hover {
+  color: #ffffff;
+}
+.features .features-top div p {
+  color: #F6F7F8;
+  font-size: 1.8rem;
+  font-family: 'Open Sans';
 }
 .navigation {
   display: flex;
