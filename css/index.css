@@ -236,8 +236,19 @@ footer {
 }
 .secondary-header .secondary-header-text .statement h2 {
   font-size: 5rem;
-  padding: 0 0 30px 0;
-  color: #EDE5A6;
+  padding: 0 0 28px 0;
+  color: #ffffff;
+  position: relative;
+  margin: 0 0 2.5rem 0;
+}
+.secondary-header .secondary-header-text .statement h2::after {
+  position: absolute;
+  height: 0.5rem;
+  width: 100px;
+  background: #d0bd2a;
+  left: 0;
+  bottom: 0;
+  content: '';
 }
 .secondary-header .secondary-header-text button {
   color: #2F2235;
@@ -264,6 +275,20 @@ footer {
   width: 100%;
   padding: 5rem 80px;
   background: #161218;
+}
+.features .section-title h2 {
+  color: #ffffff;
+  position: relative;
+  padding: 0 0 2rem 0;
+}
+.features .section-title h2::after {
+  position: absolute;
+  height: 0.5rem;
+  width: 70px;
+  background: #d0bd2a;
+  left: 0;
+  bottom: 0;
+  content: '';
 }
 .features .features-top {
   display: flex;
@@ -293,6 +318,15 @@ footer {
   color: #F6F7F8;
   font-size: 1.8rem;
   font-family: 'Open Sans';
+}
+.features .features-bottom {
+  background: #90759a;
+  margin: 70px 0 0 0;
+}
+.features .features-bottom p {
+  color: #000000;
+  font-size: 6rem;
+  text-align: center;
 }
 .navigation {
   display: flex;

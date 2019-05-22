@@ -29,3 +29,15 @@
         color:  @hover-color;
     }
 }
+
+.after(@width) {
+    &::after {
+        position: absolute;
+        height: 0.5rem;
+        width: @width;
+        background: darken(@secondary-h2, 30%);
+        left: 0;
+        bottom: 0;
+        content: '';
+    }
+}
