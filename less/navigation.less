@@ -1,0 +1,21 @@
+.navigation {
+    .navStyle();
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    nav {
+        .aTagAndNavMargin(15px 0 0 0);
+ 
+        a {
+            .aTagAndNavMargin(0 20px);
+            text-decoration: none;
+            color: @nav-font;
+            font-size: 2rem;
+            font-weight: 400;
+            &:hover{
+                color: @hover-color;
+            }
+        }
+      }
+}
