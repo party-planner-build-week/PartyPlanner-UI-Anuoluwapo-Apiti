@@ -453,14 +453,20 @@ footer .copyright p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 12rem 0 0 0 ;
+  margin: 10rem 0 30rem 0 ;
+}
+.team .section-title {
+  padding: 6rem 0;
+}
+.team .section-title h2 {
+  font-size: 6rem;
 }
 .team .team-lead {
   display: flex;
   justify-content: space-around;
   align-content: center;
   width: 25%;
-  height: 430px;
+  height: 500px;
   margin: 0 0 5rem 0;
   background: #ebebeb;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -497,7 +503,7 @@ footer .copyright p {
   justify-content: center;
   align-content: center;
   background: #ebebeb;
-  height: 320px;
+  height: 360px;
   width: 19%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
