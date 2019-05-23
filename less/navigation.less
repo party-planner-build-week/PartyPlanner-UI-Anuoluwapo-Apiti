@@ -7,6 +7,10 @@
     box-shadow: 0 3px 2px -2px @white-text;
     nav {
         .aTagAndNavMargin(15px 0 0 0);
+
+        @media @phone {
+            display: none;
+        }
  
         a {
             .aTagAndNavMargin(0 20px);
