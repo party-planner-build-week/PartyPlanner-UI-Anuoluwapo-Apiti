@@ -291,7 +291,7 @@ footer .copyright p {
   flex-direction: column;
   align-content: space-around;
   width: 100%;
-  padding: 5rem 80px;
+  padding: 12rem 80px;
   background: #f5f5f5;
 }
 .features .section-title h2 {
@@ -349,6 +349,7 @@ footer .copyright p {
 }
 .advert {
   display: flex;
+  padding: 12rem 0 ;
   justify-content: space-evenly;
 }
 .advert .advert-img {
@@ -364,7 +365,7 @@ footer .copyright p {
 }
 .advert .advert-text h4 {
   font-size: 5rem;
-  padding: 5rem 5rem 2rem 5rem;
+  padding: 7rem 5rem 2rem 5rem;
 }
 .advert .advert-text p {
   font-size: 2.3rem;
@@ -393,6 +394,7 @@ footer .copyright p {
   align-content: center;
   width: 100%;
   margin: 60px 0;
+  padding: 10rem;
 }
 .testimonials .testimonials-card {
   display: flex;
@@ -458,6 +460,7 @@ footer .copyright p {
   top: 0;
   z-index: 10;
   font-family: 'Pacifico';
+  box-shadow: 0 3px 2px -2px #6B6B6B;
 }
 .navigation nav {
   margin: 15px 0 0 0;
