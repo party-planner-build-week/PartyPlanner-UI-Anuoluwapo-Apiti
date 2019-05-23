@@ -126,8 +126,48 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* @import url('https://fonts.googleapis.com/css?family=Archivo|Montserrat|Open+Sans|Great+Vibes|Pacifico|Roboto&display=swap');
- */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Archivo Regular'), local('Archivo-Regular'), url(https://fonts.gstatic.com/s/archivo/v4/k3kQo8UDI-1M0wlSfdnoKw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Great Vibes'), local('GreatVibes-Regular'), url(https://fonts.gstatic.com/s/greatvibes/v6/RWmMoKWR9v4ksMfaWd_JN9XFiaE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v13/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v13/FwZY7-Qmy14u9lezJ-6H6Mw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
 * {
   box-sizing: border-box;
 }
@@ -235,7 +275,7 @@ footer .copyright p {
   padding: 1.3rem 7rem;
   background: #15d054;
   margin: 30px 0 0 0;
-  border: 2px solid #EDE5A6;
+  border: 2px solid #0c742f;
   border-radius: 5rem;
   font-family: 'Pacifico';
 }
@@ -255,7 +295,7 @@ footer .copyright p {
   background: #f5f5f5;
 }
 .features .section-title h2 {
-  color: #0e8b38;
+  color: #454545;
   position: relative;
   padding: 0 0 2rem 0;
 }
@@ -290,7 +330,7 @@ footer .copyright p {
   padding: 0 0 1.5rem 0;
 }
 .features .features-top div h3:hover {
-  color: #ebebeb;
+  color: #454545;
 }
 .features .features-top div p {
   color: #5e5e5e;
@@ -320,6 +360,91 @@ footer .copyright p {
 }
 .advert .advert-text {
   width: 50%;
+  text-align: left;
+}
+.advert .advert-text h4 {
+  font-size: 5rem;
+  padding: 5rem 5rem 2rem 5rem;
+}
+.advert .advert-text p {
+  font-size: 2.3rem;
+  padding: 0 5rem 0 5rem;
+  line-height: 3.5rem;
+  color: #5e5e5e;
+  font-weight: 50;
+}
+.advert .advert-text button {
+  color: #0D1321;
+  font-size: 2.8rem;
+  padding: 1.3rem 7rem;
+  background: #15d054;
+  margin: 30px 0 0 0;
+  border: 2px solid #0c742f;
+  border-radius: 5rem;
+  font-family: 'Pacifico';
+}
+.advert .advert-text button:hover {
+  background-color: #0e8b38;
+  cursor: pointer;
+}
+.testimonials {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 100%;
+  margin: 60px 0;
+}
+.testimonials .testimonials-card {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  width: 100%;
+  height: 300px;
+}
+.testimonials .testimonials-card .profile-card {
+  width: 30%;
+}
+.testimonials .testimonials-card .profile-card img {
+  height: 300px;
+  width: 100%;
+}
+.testimonials .testimonials-card .testimonials-msg {
+  width: 70%;
+  background: #FFFFFF;
+}
+.testimonials .testimonials-card .testimonials-msg p {
+  font-size: 2.7rem;
+  text-align: left;
+  padding: 5rem 2rem 2rem 2rem;
+  font-family: 'Archivo';
+}
+.testimonials .testimonials-card .testimonials-msg h4 {
+  font-size: 2rem;
+  padding: 0 0 0 5rem;
+}
+.partners .clients-title h4 {
+  color: #454545;
+  margin: 0 0 0 80px;
+  font-size: 3rem;
+  position: relative;
+  padding: 4rem 0 2rem 0;
+}
+.partners .clients-title h4::after {
+  position: absolute;
+  height: 0.5rem;
+  width: 70px;
+  background: #18e75e;
+  left: 0;
+  bottom: 0;
+  content: '';
+}
+.partners .clients {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.partners .clients .clients-logo img {
+  height: 150px;
 }
 .navigation {
   display: flex;
@@ -346,7 +471,8 @@ footer .copyright p {
   font-family: 'Open Sans';
 }
 .navigation nav a:hover {
-  color: #59b8de;
+  color: #1b2846;
+  border-bottom: 3px solid #13b94b;
 }
 .navigation nav a:last-of-type {
   color: #13b94b;
