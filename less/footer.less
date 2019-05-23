@@ -1,9 +1,29 @@
 // Footer Styles
-footer {
-    color: @footer-font-color;
-    background: @footer-background;
-    padding: 2.5rem 0;
+
+  footer{
     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-content: space-between;
+    align-items: baseline;
+    font-family: 'Archivo';
+    padding: 3rem 80px;
+    background: darken(@nav-bg, 5%);
+    .socials {
+        width: 50%;
+        font-size: 4rem;
+        i {
+            margin: 1rem 3rem;
+            &:hover {
+                color: @hover-color;
+            } 
+        }
+
+    }
+    .copyright{
+        width: 50%;
+        p {
+            font-size: 2rem;
+        }
+    }
+}
