@@ -1,0 +1,68 @@
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 12rem 0 0 0 ;
+    .team-lead {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        width: 25%;
+        height: 430px;
+        margin: 0 0 5rem 0;
+        background: @card-details;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .team-lead-card {
+        background: @card-details;
+        border-radius: 20px 20px;
+        height: 80px;
+        width: 100%;
+
+        .card-lead-details {
+            height: 500px;
+            font-size: 2.4rem;
+            padding: 1.5rem;
+            p {
+                font-size: 2.3rem;
+                padding: 0.5rem 1rem 1rem 1rem;
+                font-weight: 500;
+            }
+        }
+        img {
+            width: 100%;
+        }
+
+    }
+    .team-members {
+        padding: 2rem;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        width: 100%;
+    }
+    & .team-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        background: @card-details;
+        height: 320px;
+        width: 19%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        .card-details {
+            height: 250px;
+            font-size: 2.4rem;
+            padding: 1.5rem;
+            p {
+                font-size: 2rem;
+                padding: 0.5rem 1rem 1rem 1rem;
+                font-weight: 500;
+            }
+        }
+        img {
+            width: 100%;
+        }
+    }
+}

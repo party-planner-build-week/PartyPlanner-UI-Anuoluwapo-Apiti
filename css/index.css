@@ -448,6 +448,72 @@ footer .copyright p {
 .partners .clients .clients-logo img {
   height: 150px;
 }
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12rem 0 0 0 ;
+}
+.team .team-lead {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 25%;
+  height: 430px;
+  margin: 0 0 5rem 0;
+  background: #ebebeb;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.team .team-lead-card {
+  background: #ebebeb;
+  border-radius: 20px 20px;
+  height: 80px;
+  width: 100%;
+}
+.team .team-lead-card .card-lead-details {
+  height: 500px;
+  font-size: 2.4rem;
+  padding: 1.5rem;
+}
+.team .team-lead-card .card-lead-details p {
+  font-size: 2.3rem;
+  padding: 0.5rem 1rem 1rem 1rem;
+  font-weight: 500;
+}
+.team .team-lead-card img {
+  width: 100%;
+}
+.team .team-members {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 100%;
+}
+.team .team-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background: #ebebeb;
+  height: 320px;
+  width: 19%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.team .team-card .card-details {
+  height: 250px;
+  font-size: 2.4rem;
+  padding: 1.5rem;
+}
+.team .team-card .card-details p {
+  font-size: 2rem;
+  padding: 0.5rem 1rem 1rem 1rem;
+  font-weight: 500;
+}
+.team .team-card img {
+  width: 100%;
+}
 .navigation {
   display: flex;
   justify-content: space-between;
