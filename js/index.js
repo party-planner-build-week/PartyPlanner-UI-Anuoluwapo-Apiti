@@ -37,6 +37,17 @@ let logo = document.querySelector('.logo').innerHTML = `<h2>PartyPlanner</h2>`
 let bgImg = document.getElementById('bg-img');
 bgImg.setAttribute("src", siteContent.secHeader["img-src"]);
 
+//const btnLink = document.querySelectorAll('.button')
+
+function visitPage(){
+  window.location='https://party-tas.netlify.com/';
+}
+//btnLink.addEventListener('click', visitPage());
+
+
+
+
+
 //AOS
 AOS.init({
   duration: 1200,
