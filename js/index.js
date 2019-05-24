@@ -37,3 +37,7 @@ let logo = document.querySelector('.logo').innerHTML = `<h2>PartyPlanner</h2>`
 let bgImg = document.getElementById('bg-img');
 bgImg.setAttribute("src", siteContent.secHeader["img-src"]);
 
+//AOS
+AOS.init({
+  duration: 1200,
+})
