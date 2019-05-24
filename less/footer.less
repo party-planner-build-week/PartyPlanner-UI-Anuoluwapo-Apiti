@@ -1,0 +1,45 @@
+// Footer Styles
+
+  footer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-content: space-between;
+    align-items: baseline;
+    font-family: 'Archivo';
+    padding: 3rem 80px;
+    background: darken(@nav-bg, 5%);
+    flex-wrap: wrap;
+    width: 100%;
+
+    .socials {
+        width: 50%;
+        font-size: 4rem;
+
+        @media @phone {
+            font-size: 1rem;
+            width: 100%;
+        }
+        i {
+            margin: 1rem 3rem;
+            &:hover {
+                color: @hover-color;
+            } 
+        }
+
+    }
+    .copyright{
+        width: 50%;
+        @media @phone {
+            width: 100%;
+        } 
+        p {
+            font-size: 2rem;
+            padding: 1rem 0 0 3.8rem;
+
+            @media @phone {
+                font-size: 1rem;
+            }
+        }
+    }
+}
