@@ -15,6 +15,11 @@
     .socials {
         width: 50%;
         font-size: 4rem;
+
+        @media @phone {
+            font-size: 1rem;
+            width: 100%;
+        }
         i {
             margin: 1rem 3rem;
             &:hover {
@@ -25,8 +30,16 @@
     }
     .copyright{
         width: 50%;
+        @media @phone {
+            width: 100%;
+        } 
         p {
             font-size: 2rem;
+            padding: 1rem 0 0 3.8rem;
+
+            @media @phone {
+                font-size: 1rem;
+            }
         }
     }
 }

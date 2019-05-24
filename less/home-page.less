@@ -250,6 +250,12 @@
     margin: 60px 0;
     padding: 10rem;
 
+    @media @phone {
+        flex-direction: column;
+        margin: 1rem 0 0 0;
+        padding:  1rem 2rem;
+    }
+
     .testimonials-card {
         display: flex;
         justify-content: flex-start;
@@ -261,6 +267,10 @@
             img {
                 height: 300px;
                 width: 100%;
+
+                @media @phone {
+                    height:200px;
+                }
             }
         }
         .testimonials-msg {
@@ -271,11 +281,21 @@
                 text-align: left;
                 padding: 5rem 2rem 2rem 2rem;
                 font-family: 'Archivo';
+
+                @media @phone {
+                    font-size: 1.6rem;
+                    padding: 1rem 1rem 1rem 2rem;
+                    text-align: left;
+                }
             }
 
             h4 {
                 font-size: 2rem;
                 padding: 0 0 0 5rem;
+
+                @media @phone {
+                    padding: 0 0 0 1rem;
+                }
             }
         }
     }

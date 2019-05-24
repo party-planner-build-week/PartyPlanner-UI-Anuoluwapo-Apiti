@@ -217,6 +217,12 @@ footer .socials {
   width: 50%;
   font-size: 4rem;
 }
+@media (max-width: 500px) {
+  footer .socials {
+    font-size: 1rem;
+    width: 100%;
+  }
+}
 footer .socials i {
   margin: 1rem 3rem;
 }
@@ -226,8 +232,19 @@ footer .socials i:hover {
 footer .copyright {
   width: 50%;
 }
+@media (max-width: 500px) {
+  footer .copyright {
+    width: 100%;
+  }
+}
 footer .copyright p {
   font-size: 2rem;
+  padding: 1rem 0 0 3.8rem;
+}
+@media (max-width: 500px) {
+  footer .copyright p {
+    font-size: 1rem;
+  }
 }
 #bg-img {
   height: 800px;
@@ -548,6 +565,13 @@ footer .copyright p {
   margin: 60px 0;
   padding: 10rem;
 }
+@media (max-width: 500px) {
+  .testimonials {
+    flex-direction: column;
+    margin: 1rem 0 0 0;
+    padding: 1rem 2rem;
+  }
+}
 .testimonials .testimonials-card {
   display: flex;
   justify-content: flex-start;
@@ -562,6 +586,11 @@ footer .copyright p {
   height: 300px;
   width: 100%;
 }
+@media (max-width: 500px) {
+  .testimonials .testimonials-card .profile-card img {
+    height: 200px;
+  }
+}
 .testimonials .testimonials-card .testimonials-msg {
   width: 70%;
   background: #FFFFFF;
@@ -572,9 +601,21 @@ footer .copyright p {
   padding: 5rem 2rem 2rem 2rem;
   font-family: 'Archivo';
 }
+@media (max-width: 500px) {
+  .testimonials .testimonials-card .testimonials-msg p {
+    font-size: 1.6rem;
+    padding: 1rem 1rem 1rem 2rem;
+    text-align: left;
+  }
+}
 .testimonials .testimonials-card .testimonials-msg h4 {
   font-size: 2rem;
   padding: 0 0 0 5rem;
+}
+@media (max-width: 500px) {
+  .testimonials .testimonials-card .testimonials-msg h4 {
+    padding: 0 0 0 1rem;
+  }
 }
 .partners .clients-title h4 {
   color: #454545;
